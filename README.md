@@ -49,3 +49,11 @@ To install the software development tools run:
 ```
 .\scripts\development.ps1
 ```
+
+### Install Gaming Tools
+
+To install the software development tools run:
+
+```
+.\scripts\gaming.ps1
+```
