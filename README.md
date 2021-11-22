@@ -1,6 +1,16 @@
 # Windows 10 Initial Setup
 
-This repo contains scripts to setup my PC after a clean install of Windows 10.
+This repo contains scripts to setup my PC after a clean install of Windows 10. It is using [Chocolatey](https://chocolatey.org/) - a package manager for Windows, to install all the required software packages.
+
+## tl;dr version
+
+To set up everything with one command, open PowerShell as an Administrator and run:
+
+```
+.\install.ps1
+```
+
+If you want to install only specific packages, or want to go through the process step by step, continue reading.
 
 ## Set the `Unrestricted` Execution Policy
 
