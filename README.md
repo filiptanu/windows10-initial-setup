@@ -75,3 +75,11 @@ To install the software development tools run:
 ```
 .\scripts\gaming.ps1
 ```
+
+## Upgrade Installed Packages
+
+Down the line, if you want to upgrade all installed packages (including Chocolatey) run:
+
+```
+.\upgrade.ps1
+```
