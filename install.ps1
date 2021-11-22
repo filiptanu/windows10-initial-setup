@@ -7,3 +7,4 @@ Set-ExecutionPolicy Bypass -Scope Process -Force;
 .\scripts\essentials.ps1
 .\scripts\development.ps1
 .\scripts\gaming.ps1
+.\scripts\crypto.ps1

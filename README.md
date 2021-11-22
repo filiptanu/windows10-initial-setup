@@ -76,7 +76,15 @@ To install the software development tools run:
 .\scripts\gaming.ps1
 ```
 
-## Upgrade Installed Packages
+### Install Crypto Tools
+
+To install the software development tools run:
+
+```
+.\scripts\crypto.ps1
+```
+
+### Upgrade Installed Packages
 
 Down the line, if you want to upgrade all installed packages (including Chocolatey) run:
 
