@@ -52,6 +52,14 @@ To install Chocolatey run:
 
 You can update any of the scripts that install apps by searching the [Chocolatey Community Registry](https://community.chocolatey.org/) for any apps you want to install and updating the appropriate script before running it.
 
+### Install Windows Essentials
+
+To install the Windows essential apps run:
+
+```
+.\scripts\essentials.ps1
+```
+
 ### Install Development Tools
 
 To install the software development tools run:
