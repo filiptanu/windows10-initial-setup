@@ -7,6 +7,8 @@ This repo contains scripts to setup my PC after a clean install of Windows 10. I
 To set up everything with one command, open PowerShell as an Administrator and run:
 
 ```
+Set-ExecutionPolicy Bypass -Scope Process -Force;
+
 .\install.ps1
 ```
 
@@ -70,7 +72,7 @@ To install the software development tools run:
 
 ### Install Gaming Tools
 
-To install the software development tools run:
+To install the gaming development tools run:
 
 ```
 .\scripts\gaming.ps1
@@ -78,10 +80,18 @@ To install the software development tools run:
 
 ### Install Crypto Tools
 
-To install the software development tools run:
+To install the crypto tools run:
 
 ```
 .\scripts\crypto.ps1
+```
+
+### Install Miscellaneous Tools
+
+To install other miscellaneous tools run:
+
+```
+.\scripts\miscellaneous.ps1
 ```
 
 ### Upgrade Installed Packages

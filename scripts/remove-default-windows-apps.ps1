@@ -17,7 +17,7 @@ Get-AppxPackage Microsoft.Print3D | Remove-AppxPackage
 Get-AppxPackage Microsoft.SkypeApp | Remove-AppxPackage
 Get-AppxPackage Microsoft.StorePurchaseApp | Remove-AppxPackage
 Get-AppxPackage Microsoft.Wallet | Remove-AppxPackage
-Get-AppxPackage Microsoft.Windows.Photos | Remove-AppxPackage
+# Get-AppxPackage Microsoft.Windows.Photos | Remove-AppxPackage
 Get-AppxPackage Microsoft.WindowsAlarms | Remove-AppxPackage
 # Get-AppxPackage Microsoft.WindowsCalculator | Remove-AppxPackage
 Get-AppxPackage Microsoft.WindowsCamera | Remove-AppxPackage
