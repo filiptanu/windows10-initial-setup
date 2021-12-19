@@ -70,6 +70,26 @@ To install the software development tools run:
 .\scripts\development.ps1
 ```
 
+#### Install Windows Subsystem for Linux 2
+
+This section has not been added to the `development.ps1` script, since it requires the computer to be restarted after running some of the commands. If WSL2 is installed, Docker can be run on top of it. See [this documentation](https://docs.docker.com/desktop/windows/wsl/) for more details.
+
+To install WSL2, first you need to enable few Windows optional features. You will need to restart your computer once you run those.
+
+```
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All -All # requires restart
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -All # requires restart
+```
+
+After you have restarted your computer, you can run:
+
+```
+choco install wsl2 -y
+choco install wsl-ubuntu-2004 -y
+```
+
+to install WSL2 and Ubuntu 20.04 running on top of it.
+
 ### Install Gaming Tools
 
 To install the gaming development tools run:
