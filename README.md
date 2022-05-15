@@ -116,8 +116,10 @@ To install other miscellaneous tools run:
 
 ### Upgrade Installed Packages
 
-Down the line, if you want to upgrade all installed packages (including Chocolatey) run:
+Down the line, if you want to upgrade all installed packages (including Chocolatey), open PowerShell as an Administrator and run:
 
 ```
+Set-ExecutionPolicy Bypass -Scope Process -Force;
+
 .\upgrade.ps1
 ```
