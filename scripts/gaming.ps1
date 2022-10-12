@@ -5,4 +5,5 @@ choco install leagueoflegendseune -y
 choco install steam-client -y
 
 # Manual install
-# Battle.net - https://www.blizzard.com/en-us/download/confirmation?product=bnetdesk&platform=windows
+# https://porofessor.gg/download
+# https://eu.shop.battle.net/

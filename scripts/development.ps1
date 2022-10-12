@@ -1,4 +1,3 @@
-choco install anaconda3 -y
 choco install androidstudio -y
 choco install docker-desktop -y
 choco install git -y
